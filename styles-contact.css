@@ -60,32 +60,31 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(images/Bricks%20Yellow.jpg)
+  background: url(images/tt%20website%20background.jpg)
       center center fixed no-repeat;
-    background-size: cover;	
+    background-size: cover;
+    font-family: linotype-didot, serif;
             }
 
 .center {
-    width: 800px;
+    width: 840px;
 	padding: 2%;
-    margin: 100px auto;
- 	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
-	text-align: center;
-	border: 4px dashed white;
+    margin: 200px auto;
+ 	background: rgba(256, 256, 256, .10); /*this uses opacity of 50% for the background color*/
+	text-align: left;
         }
 
    
 #logo {
     margin-bottom: 16px;
-	border: 3px dashed red;
-	text-align: center;
+	text-align: left;
         }
 
 h1 {
 	font-family: linotype-didot, serif;
     font-weight: 400;
     font-style: normal;
-	font-size: 2em;
+	font-size: 3em;
     margin: 0px auto 10px auto;
     color: #fff;
     }
@@ -102,20 +101,20 @@ h2 {
     }
 
 p {
-	font-family: linotype-didot, serif;
+    background: rgba(256, 256, 256, .60);
+	font-family: lust, serif;
     font-weight: 400;
     font-style: normal;
-	font-size: 1.2em;
+	font-size: 1.5em;
     line-height: 1.6;
-    color: #fff;
+    color: #004d00;
     }
     
 nav{
-    font-family: linotype-didot, serif;
+    font-family: lust, serif;
     font-size: 1.2em;
     width: 400px;
     margin: 0 auto;
-    border: dashed turquoise;
     border-width: 3px 0;
     text-align: center;
     margin-top: 2em;   
@@ -123,20 +122,21 @@ nav{
 
 nav{
     font-family:linotype-didot, serif;
-    font-size 1.2em;
+    font-size 1.5em;
     width: 400px;
     margin: 0auto;
-    border: dashed turquoise;
     border-width:3px 0;
     text-align: center;
     margin-top: 2em;
     }
 
 nav li{
-    display:inline;  
+    display:inline; 
+    font-size: .8em;
     }
 
 nav a{
+    font-family: lust, serif;
     display: inline-block;
     padding:10px;
     }
@@ -144,10 +144,9 @@ nav a{
 a{
     color:#444;
     text-decoration: none;
-    font-weight: bold;
     }
 
 a:hover{
     color:black;
-    background:pink;
+    background:white;
     }
