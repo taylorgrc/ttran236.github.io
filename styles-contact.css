@@ -60,7 +60,7 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(images/tt%20website%20background.jpg)
+  background: url(images/taylorwebpagebackground.jpg)
       center center fixed no-repeat;
     background-size: cover;
     font-family: linotype-didot, serif;
@@ -70,13 +70,13 @@ html, body {
     width: 840px;
 	padding: 2%;
     margin: 200px auto;
- 	background: rgba(256, 256, 256, .10); /*this uses opacity of 50% for the background color*/
+ 	background: rgba(256, 256, 256, ); /*this uses opacity of 50% for the background color*/
 	text-align: left;
         }
 
    
 #logo {
-    margin-bottom: 16px;
+    margin-bottom: 20px;
 	text-align: left;
         }
 
@@ -101,13 +101,12 @@ h2 {
     }
 
 p {
-    background: rgba(256, 256, 256, .60);
 	font-family: lust, serif;
     font-weight: 400;
     font-style: normal;
-	font-size: 1.5em;
+	font-size: 1.4em;
     line-height: 1.6;
-    color: #004d00;
+    color:white;
     }
     
 nav{
@@ -139,6 +138,7 @@ nav a{
     font-family: lust, serif;
     display: inline-block;
     padding:10px;
+    color: white
     }
 
 a{
